@@ -1,4 +1,4 @@
-package org.antlr.jetbrains.wacc;
+package ms.jameswillia.intelliwacc;
 
 import com.intellij.core.CoreASTFactory;
 import com.intellij.lang.ParserDefinition;
@@ -8,8 +8,8 @@ import com.intellij.psi.impl.source.tree.LeafPsiElement;
 import com.intellij.psi.impl.source.tree.PsiCoreCommentImpl;
 import com.intellij.psi.tree.IElementType;
 import org.antlr.intellij.adaptor.lexer.TokenIElementType;
-import org.antlr.jetbrains.wacc.parser.WaccLanguageLexer;
-import org.antlr.jetbrains.wacc.psi.IdentifierPSINode;
+import ms.jameswillia.intelliwacc.parser.WaccLanguageLexer;
+import ms.jameswillia.intelliwacc.psi.IdentifierPSINode;
 import org.jetbrains.annotations.NotNull;
 
 /** How to create parse tree nodes (Jetbrains calls them AST nodes). Later

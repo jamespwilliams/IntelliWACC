@@ -1,10 +1,10 @@
-package org.antlr.jetbrains.wacc.structview;
+package ms.jameswillia.intelliwacc.structview;
 
 import com.intellij.ide.structureView.StructureViewModel;
 import com.intellij.ide.structureView.StructureViewModelBase;
 import com.intellij.ide.structureView.StructureViewTreeElement;
 import com.intellij.ide.util.treeView.smartTree.Sorter;
-import org.antlr.jetbrains.wacc.psi.WaccPSIFileRoot;
+import ms.jameswillia.intelliwacc.psi.WaccPSIFileRoot;
 import org.jetbrains.annotations.NotNull;
 
 public class WaccStructureViewModel

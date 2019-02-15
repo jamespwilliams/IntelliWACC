@@ -1,4 +1,4 @@
-package org.antlr.jetbrains.wacc;
+package ms.jameswillia.intelliwacc;
 
 import com.intellij.openapi.fileTypes.LanguageFileType;
 import org.jetbrains.annotations.NotNull;

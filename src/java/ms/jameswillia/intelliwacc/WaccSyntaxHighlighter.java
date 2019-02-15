@@ -1,4 +1,4 @@
-package org.antlr.jetbrains.wacc;
+package ms.jameswillia.intelliwacc;
 
 import com.intellij.lexer.Lexer;
 import com.intellij.openapi.editor.DefaultLanguageHighlighterColors;
@@ -8,8 +8,8 @@ import com.intellij.psi.tree.IElementType;
 import org.antlr.intellij.adaptor.lexer.ANTLRLexerAdaptor;
 import org.antlr.intellij.adaptor.lexer.PSIElementTypeFactory;
 import org.antlr.intellij.adaptor.lexer.TokenIElementType;
-import org.antlr.jetbrains.wacc.parser.WaccLanguageLexer;
-import org.antlr.jetbrains.wacc.parser.WaccLanguageParser;
+import ms.jameswillia.intelliwacc.parser.WaccLanguageLexer;
+import ms.jameswillia.intelliwacc.parser.WaccLanguageParser;
 import org.jetbrains.annotations.NotNull;
 import static com.intellij.openapi.editor.colors.TextAttributesKey.createTextAttributesKey;
 
@@ -86,7 +86,7 @@ public class WaccSyntaxHighlighter extends SyntaxHighlighterBase {
 			case WaccLanguageLexer.NEWPAIR :
 			case WaccLanguageLexer.BOOL_LITER :
 			case WaccLanguageLexer.THEN :
-			case WaccLanguageLexer.SKIP :
+			case WaccLanguageLexer.SKIP_ :
 			case WaccLanguageLexer.BEGIN :
 			case WaccLanguageLexer.END :
 			case WaccLanguageLexer.IS :

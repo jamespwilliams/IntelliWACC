@@ -1,4 +1,4 @@
-package org.antlr.jetbrains.wacc.psi;
+package ms.jameswillia.intelliwacc.psi;
 
 import com.intellij.psi.PsiElement;
 import org.jetbrains.annotations.NotNull;

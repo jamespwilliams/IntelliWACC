@@ -1,4 +1,4 @@
-package org.antlr.jetbrains.wacc.psi;
+package ms.jameswillia.intelliwacc.psi;
 
 import com.intellij.extapi.psi.PsiFileBase;
 import com.intellij.openapi.fileTypes.FileType;
@@ -7,9 +7,9 @@ import com.intellij.psi.PsiElement;
 import com.intellij.psi.PsiNamedElement;
 import org.antlr.intellij.adaptor.SymtabUtils;
 import org.antlr.intellij.adaptor.psi.ScopeNode;
-import org.antlr.jetbrains.wacc.Icons;
-import org.antlr.jetbrains.wacc.WaccFileType;
-import org.antlr.jetbrains.wacc.WaccLanguage;
+import ms.jameswillia.intelliwacc.Icons;
+import ms.jameswillia.intelliwacc.WaccFileType;
+import ms.jameswillia.intelliwacc.WaccLanguage;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 

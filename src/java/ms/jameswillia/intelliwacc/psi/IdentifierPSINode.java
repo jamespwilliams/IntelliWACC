@@ -1,4 +1,4 @@
-package org.antlr.jetbrains.wacc.psi;
+package ms.jameswillia.intelliwacc.psi;
 
 import com.intellij.psi.PsiElement;
 import com.intellij.psi.PsiNamedElement;
@@ -8,12 +8,12 @@ import com.intellij.util.IncorrectOperationException;
 import org.antlr.intellij.adaptor.lexer.RuleIElementType;
 import org.antlr.intellij.adaptor.psi.ANTLRPsiLeafNode;
 import org.antlr.intellij.adaptor.psi.Trees;
-import org.antlr.jetbrains.wacc.WaccLanguage;
-import org.antlr.jetbrains.wacc.WaccParserDefinition;
+import ms.jameswillia.intelliwacc.WaccLanguage;
+import ms.jameswillia.intelliwacc.WaccParserDefinition;
 import org.jetbrains.annotations.NonNls;
 import org.jetbrains.annotations.NotNull;
 
-import static org.antlr.jetbrains.wacc.parser.WaccLanguageParser.*;
+import static ms.jameswillia.intelliwacc.parser.WaccLanguageParser.*;
 
 /** From doc: "Every element which can be renamed or referenced
  *             needs to implement com.intellij.psi.PsiNamedElement interface."

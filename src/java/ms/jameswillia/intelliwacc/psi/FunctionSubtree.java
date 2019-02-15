@@ -1,4 +1,4 @@
-package org.antlr.jetbrains.wacc.psi;
+package ms.jameswillia.intelliwacc.psi;
 
 import com.intellij.lang.ASTNode;
 import com.intellij.psi.PsiElement;
@@ -7,7 +7,7 @@ import com.intellij.psi.tree.IElementType;
 import org.antlr.intellij.adaptor.SymtabUtils;
 import org.antlr.intellij.adaptor.psi.IdentifierDefSubtree;
 import org.antlr.intellij.adaptor.psi.ScopeNode;
-import org.antlr.jetbrains.wacc.WaccLanguage;
+import ms.jameswillia.intelliwacc.WaccLanguage;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 

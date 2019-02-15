@@ -1,4 +1,4 @@
-package org.antlr.jetbrains.wacc;
+package ms.jameswillia.intelliwacc;
 
 import com.intellij.lang.annotation.AnnotationHolder;
 import com.intellij.lang.annotation.ExternalAnnotator;

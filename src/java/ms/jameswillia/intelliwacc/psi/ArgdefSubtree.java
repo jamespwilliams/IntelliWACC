@@ -1,4 +1,4 @@
-package org.antlr.jetbrains.wacc.psi;
+package ms.jameswillia.intelliwacc.psi;
 
 import com.intellij.lang.ASTNode;
 import com.intellij.psi.tree.IElementType;

@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/IntelliWACC.iml" filepath="$PROJECT_DIR$/IntelliWACC.iml" />
-      <module fileurl="file://$PROJECT_DIR$//intelliwacc.iml" filepath="$PROJECT_DIR$//intelliwacc.iml" />
     </modules>
   </component>
 </project>

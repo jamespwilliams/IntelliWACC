@@ -1,9 +1,9 @@
-package org.antlr.jetbrains.wacc.structview;
+package ms.jameswillia.intelliwacc.structview;
 
 import com.intellij.lang.ASTNode;
 import com.intellij.navigation.ItemPresentation;
 import com.intellij.psi.PsiElement;
-import org.antlr.jetbrains.wacc.Icons;
+import ms.jameswillia.intelliwacc.Icons;
 import org.jetbrains.annotations.Nullable;
 
 import javax.swing.*;

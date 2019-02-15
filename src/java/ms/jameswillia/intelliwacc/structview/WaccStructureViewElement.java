@@ -1,4 +1,4 @@
-package org.antlr.jetbrains.wacc.structview;
+package ms.jameswillia.intelliwacc.structview;
 
 import com.intellij.ide.structureView.StructureViewTreeElement;
 import com.intellij.ide.util.treeView.smartTree.SortableTreeElement;
@@ -8,8 +8,8 @@ import com.intellij.navigation.NavigationItem;
 import com.intellij.psi.PsiElement;
 import com.intellij.psi.PsiNamedElement;
 import org.antlr.intellij.adaptor.xpath.XPath;
-import org.antlr.jetbrains.wacc.WaccLanguage;
-import org.antlr.jetbrains.wacc.psi.WaccPSIFileRoot;
+import ms.jameswillia.intelliwacc.WaccLanguage;
+import ms.jameswillia.intelliwacc.psi.WaccPSIFileRoot;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.ArrayList;

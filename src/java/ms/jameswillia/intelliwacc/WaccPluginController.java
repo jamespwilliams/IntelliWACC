@@ -1,4 +1,4 @@
-package org.antlr.jetbrains.wacc;
+package ms.jameswillia.intelliwacc;
 
 import com.intellij.ide.plugins.IdeaPluginDescriptor;
 import com.intellij.ide.plugins.PluginManager;
@@ -10,7 +10,7 @@ import com.intellij.openapi.util.SystemInfo;
 import org.jetbrains.annotations.NotNull;
 
 public class WaccPluginController implements ProjectComponent {
-	public static final String PLUGIN_ID = "org.antlr.jetbrains.wacc";
+	public static final String PLUGIN_ID = "ms.jameswillia.intelliwacc";
 	public static final Logger LOG = Logger.getInstance("WaccPluginController");
 
 	public Project project;

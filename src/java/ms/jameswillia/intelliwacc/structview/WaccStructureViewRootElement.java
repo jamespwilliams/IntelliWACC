@@ -1,4 +1,4 @@
-package org.antlr.jetbrains.wacc.structview;
+package ms.jameswillia.intelliwacc.structview;
 
 import com.intellij.navigation.ItemPresentation;
 import com.intellij.psi.PsiFile;

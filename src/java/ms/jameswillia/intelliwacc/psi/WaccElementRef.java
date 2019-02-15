@@ -1,4 +1,4 @@
-package org.antlr.jetbrains.wacc.psi;
+package ms.jameswillia.intelliwacc.psi;
 
 import com.intellij.openapi.util.TextRange;
 import com.intellij.psi.PsiElement;
@@ -12,7 +12,7 @@ import org.jetbrains.annotations.Nullable;
 public abstract class WaccElementRef extends PsiReferenceBase<IdentifierPSINode> {
 	public WaccElementRef(@NotNull IdentifierPSINode element) {
 		/** WARNING: You must send up the text range or you get this error:
-		 * "Cannot find manipulator for PsiElement(ID) in org.antlr.jetbrains.wacc.WaccElementRef"...
+		 * "Cannot find manipulator for PsiElement(ID) in ms.jameswillia.intelliwacc.WaccElementRef"...
 		 *  when you click on an identifier.  During rename you get this
 		 *  error too if you don't impl handleElementRename().
 		 *

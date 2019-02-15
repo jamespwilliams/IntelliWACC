@@ -1,4 +1,4 @@
-package org.antlr.jetbrains.wacc.structview;
+package ms.jameswillia.intelliwacc.structview;
 
 import com.intellij.ide.structureView.StructureViewBuilder;
 import com.intellij.ide.structureView.StructureViewModel;
@@ -6,7 +6,7 @@ import com.intellij.ide.structureView.TreeBasedStructureViewBuilder;
 import com.intellij.lang.PsiStructureViewFactory;
 import com.intellij.openapi.editor.Editor;
 import com.intellij.psi.PsiFile;
-import org.antlr.jetbrains.wacc.psi.WaccPSIFileRoot;
+import ms.jameswillia.intelliwacc.psi.WaccPSIFileRoot;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 

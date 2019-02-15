@@ -1,23 +1,23 @@
-package org.antlr.jetbrains.wacc;
+package ms.jameswillia.intelliwacc;
 
 import com.intellij.lang.cacheBuilder.WordsScanner;
 import com.intellij.lang.findUsages.FindUsagesProvider;
 import com.intellij.psi.PsiElement;
 import org.antlr.intellij.adaptor.lexer.RuleIElementType;
 import org.antlr.intellij.adaptor.psi.ANTLRPsiNode;
-import org.antlr.jetbrains.wacc.psi.FunctionSubtree;
-import org.antlr.jetbrains.wacc.psi.IdentifierPSINode;
-import org.antlr.jetbrains.wacc.psi.VardefSubtree;
+import ms.jameswillia.intelliwacc.psi.FunctionSubtree;
+import ms.jameswillia.intelliwacc.psi.IdentifierPSINode;
+import ms.jameswillia.intelliwacc.psi.VardefSubtree;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
-import static org.antlr.jetbrains.wacc.parser.WaccLanguageParser.RULE_functionCall;
-import static org.antlr.jetbrains.wacc.parser.WaccLanguageParser.RULE_expr;
-import static org.antlr.jetbrains.wacc.parser.WaccLanguageParser.RULE_param;
-import static org.antlr.jetbrains.wacc.parser.WaccLanguageParser.RULE_func;
-import static org.antlr.jetbrains.wacc.parser.WaccLanguageParser.RULE_literal;
-import static org.antlr.jetbrains.wacc.parser.WaccLanguageParser.RULE_stat;
-import static org.antlr.jetbrains.wacc.parser.WaccLanguageParser.RULE_declarationStat;
+import static ms.jameswillia.intelliwacc.parser.WaccLanguageParser.RULE_functionCall;
+import static ms.jameswillia.intelliwacc.parser.WaccLanguageParser.RULE_expr;
+import static ms.jameswillia.intelliwacc.parser.WaccLanguageParser.RULE_param;
+import static ms.jameswillia.intelliwacc.parser.WaccLanguageParser.RULE_func;
+import static ms.jameswillia.intelliwacc.parser.WaccLanguageParser.RULE_literal;
+import static ms.jameswillia.intelliwacc.parser.WaccLanguageParser.RULE_stat;
+import static ms.jameswillia.intelliwacc.parser.WaccLanguageParser.RULE_declarationStat;
 
 public class WaccFindUsagesProvider implements FindUsagesProvider {
 	/** Is "find usages" meaningful for a kind of definition subtree? */

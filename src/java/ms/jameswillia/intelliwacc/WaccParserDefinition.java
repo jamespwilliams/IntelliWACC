@@ -1,4 +1,4 @@
-package org.antlr.jetbrains.wacc;
+package ms.jameswillia.intelliwacc;
 
 import com.intellij.lang.ASTNode;
 import com.intellij.lang.ParserDefinition;
@@ -18,14 +18,14 @@ import org.antlr.intellij.adaptor.lexer.RuleIElementType;
 import org.antlr.intellij.adaptor.lexer.TokenIElementType;
 import org.antlr.intellij.adaptor.parser.ANTLRParserAdaptor;
 import org.antlr.intellij.adaptor.psi.ANTLRPsiNode;
-import org.antlr.jetbrains.wacc.parser.WaccLanguageLexer;
-import org.antlr.jetbrains.wacc.parser.WaccLanguageParser;
-import org.antlr.jetbrains.wacc.psi.ArgdefSubtree;
-import org.antlr.jetbrains.wacc.psi.BlockSubtree;
-import org.antlr.jetbrains.wacc.psi.CallSubtree;
-import org.antlr.jetbrains.wacc.psi.FunctionSubtree;
-import org.antlr.jetbrains.wacc.psi.WaccPSIFileRoot;
-import org.antlr.jetbrains.wacc.psi.VardefSubtree;
+import ms.jameswillia.intelliwacc.parser.WaccLanguageLexer;
+import ms.jameswillia.intelliwacc.parser.WaccLanguageParser;
+import ms.jameswillia.intelliwacc.psi.ArgdefSubtree;
+import ms.jameswillia.intelliwacc.psi.BlockSubtree;
+import ms.jameswillia.intelliwacc.psi.CallSubtree;
+import ms.jameswillia.intelliwacc.psi.FunctionSubtree;
+import ms.jameswillia.intelliwacc.psi.WaccPSIFileRoot;
+import ms.jameswillia.intelliwacc.psi.VardefSubtree;
 import org.antlr.v4.runtime.Parser;
 import org.antlr.v4.runtime.tree.ParseTree;
 import org.jetbrains.annotations.NotNull;
