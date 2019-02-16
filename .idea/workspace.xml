@@ -2,43 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d7e3500-6c07-401e-a9a5-a6fa0707d203" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/WaccCompletionContributor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IntelliWACC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/IntelliWACC.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/META-INF/plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/Icons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/Icons.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/WaccASTFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/WaccASTFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/WaccColorSettingsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/WaccColorSettingsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/WaccExternalAnnotator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/WaccExternalAnnotator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/WaccFileType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/WaccFileType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/WaccFileTypeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/WaccFileTypeFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/WaccFindUsagesProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/WaccFindUsagesProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/WaccLanguage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/WaccLanguage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/WaccParserDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/WaccParserDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/WaccPluginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/WaccPluginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/WaccSyntaxHighlighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/WaccSyntaxHighlighter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/WaccSyntaxHighlighterFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/WaccSyntaxHighlighterFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/psi/ArgdefSubtree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/psi/ArgdefSubtree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/psi/BlockSubtree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/psi/BlockSubtree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/psi/CallSubtree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/psi/CallSubtree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/psi/FunctionRef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/psi/FunctionRef.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/psi/FunctionSubtree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/psi/FunctionSubtree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/psi/IdentifierPSINode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/psi/IdentifierPSINode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/psi/VardefSubtree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/psi/VardefSubtree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/psi/VariableRef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/psi/VariableRef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/psi/WaccElementRef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/psi/WaccElementRef.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/psi/WaccPSIFileRoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/psi/WaccPSIFileRoot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/structview/WaccItemPresentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/structview/WaccItemPresentation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/structview/WaccRootPresentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/structview/WaccRootPresentation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/structview/WaccStructureViewElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/structview/WaccStructureViewElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/structview/WaccStructureViewFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/structview/WaccStructureViewFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/structview/WaccStructureViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/structview/WaccStructureViewModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/structview/WaccStructureViewRootElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/structview/WaccStructureViewRootElement.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -52,81 +22,51 @@
     <session id="-1990744607">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="iml" value="1" />
-          <entry key="java" value="7" />
-          <entry key="xml" value="2" />
+          <entry key="class" value="3" />
+          <entry key="g4" value="1" />
+          <entry key="iml" value="3" />
+          <entry key="java" value="56" />
+          <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="7" />
-          <entry key="XML" value="2" />
+          <entry key="ANTLR v4 grammar file" value="1" />
+          <entry key="CLASS" value="3" />
+          <entry key="IDEA_MODULE" value="3" />
+          <entry key="JAVA" value="56" />
+          <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="40" />
-          <entry key="xml" value="58" />
+          <entry key="java" value="399" />
+          <entry key="xml" value="100" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="40" />
-          <entry key="XML" value="58" />
+          <entry key="JAVA" value="399" />
+          <entry key="XML" value="100" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
+        <entry file="file://$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/WaccCompletionContributor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="53" column="77" selection-start-line="53" selection-start-column="77" selection-end-line="53" selection-end-column="77" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IntelliWACC.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="68" selection-start-line="3" selection-start-column="68" selection-end-line="3" selection-end-column="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/Icons.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/psi/IdentifierPSINode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="306">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -135,61 +75,87 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/WaccParserDefinition.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/adapter/src/main/java/org/antlr/intellij/adaptor/parser/ANTLRParserAdaptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/WaccSyntaxHighlighter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="88" column="40" selection-start-line="88" selection-start-column="40" selection-end-line="88" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/WaccFileType.java">
+        <entry file="file://$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/psi/VardefSubtree.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+              <folding>
+                <element signature="e#361#362#0" expanded="true" />
+                <element signature="e#393#394#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/WaccExternalAnnotator.java">
+        <entry file="file://$PROJECT_DIR$/adapter/src/main/java/org/antlr/intellij/adaptor/psi/IdentifierDefSubtree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-301">
-              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="22" column="55" lean-forward="true" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/adapter/src/main/java/org/antlr/intellij/adaptor/psi/ANTLRPsiNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="30" column="43" lean-forward="true" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/com/intellij/extapi/psi/ASTWrapperPsiElement.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/com/intellij/extapi/psi/ASTDelegatePsiElement.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="38" column="60" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/com/intellij/psi/impl/PsiElementBase.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/WaccPluginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>org.antlr.jetbrains.wacc</find>
+      <find>.VALUE</find>
+      <find>PlatformPatterns</find>
+      <find>VardefSubtree</find>
     </findStrings>
     <replaceStrings>
       <replace>ms.jameswillia.intelliwacc</replace>
@@ -202,11 +168,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/WaccExternalAnnotator.java" />
         <option value="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/Icons.java" />
         <option value="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/WaccSyntaxHighlighter.java" />
         <option value="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/WaccParserDefinition.java" />
+        <option value="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/psi/WaccPSIFileRoot.java" />
+        <option value="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/psi/FunctionSubtree.java" />
+        <option value="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/psi/BlockSubtree.java" />
+        <option value="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/WaccExternalAnnotator.java" />
         <option value="$PROJECT_DIR$/resources/META-INF/plugin.xml" />
+        <option value="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/psi/VardefSubtree.java" />
+        <option value="$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/WaccCompletionContributor.java" />
       </list>
     </option>
   </component>
@@ -224,7 +195,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="245" />
+    <option name="x" value="242" />
     <option name="y" value="24" />
     <option name="width" value="1678" />
     <option name="height" value="1032" />
@@ -236,22 +207,13 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="IntelliWACC" type="b2602c69:ProjectViewProjectNode" />
               <item name="IntelliWACC" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IntelliWACC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IntelliWACC" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IntelliWACC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IntelliWACC" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IntelliWACC" type="b2602c69:ProjectViewProjectNode" />
@@ -273,6 +235,46 @@
               <item name="IntelliWACC" type="b2602c69:ProjectViewProjectNode" />
               <item name="IntelliWACC" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="grammars" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IntelliWACC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IntelliWACC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="grammars" type="462c0819:PsiDirectoryNode" />
+              <item name="ms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IntelliWACC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IntelliWACC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="grammars" type="462c0819:PsiDirectoryNode" />
+              <item name="ms" type="462c0819:PsiDirectoryNode" />
+              <item name="jameswillia" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IntelliWACC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IntelliWACC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="grammars" type="462c0819:PsiDirectoryNode" />
+              <item name="ms" type="462c0819:PsiDirectoryNode" />
+              <item name="jameswillia" type="462c0819:PsiDirectoryNode" />
+              <item name="intelliwacc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IntelliWACC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IntelliWACC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="grammars" type="462c0819:PsiDirectoryNode" />
+              <item name="ms" type="462c0819:PsiDirectoryNode" />
+              <item name="jameswillia" type="462c0819:PsiDirectoryNode" />
+              <item name="intelliwacc" type="462c0819:PsiDirectoryNode" />
+              <item name="parser" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IntelliWACC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IntelliWACC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -281,6 +283,22 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="intelliwacc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IntelliWACC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IntelliWACC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="intelliwacc" type="462c0819:PsiDirectoryNode" />
+              <item name="psi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IntelliWACC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IntelliWACC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="intelliwacc" type="462c0819:PsiDirectoryNode" />
+              <item name="structview" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IntelliWACC" type="b2602c69:ProjectViewProjectNode" />
@@ -304,13 +322,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550225942479" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550227876893" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/antlr-4.7.2-complete.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -362,47 +379,141 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="245" y="24" width="1678" height="1032" extended-state="0" />
+    <frame x="242" y="24" width="1678" height="1032" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2512285" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25491402" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Tool Output" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="ANTLR Preview" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32993197" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32993197" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32993197" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" weight="0.32985258" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Tool Output" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="ANTLR Preview" order="11" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32993197" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32985258" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/IntelliWACC.iml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        <state relative-caret-position="51">
+          <caret line="3" column="68" selection-start-line="3" selection-start-column="68" selection-end-line="3" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adapter/src/main/java/org/antlr/intellij/adaptor/parser/ANTLRParserAdaptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/Icons.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/grammars/ms/jameswillia/intelliwacc/parser/WaccLanguage.g4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/psi/FunctionSubtree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/psi/FunctionRef.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/structview/WaccItemPresentation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/structview/WaccRootPresentation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/structview/WaccStructureViewElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/structview/WaccStructureViewFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="16" column="48" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="48" />
+          <folding>
+            <element signature="e#902#903#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/structview/WaccStructureViewModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/structview/WaccStructureViewRootElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/WaccASTFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="47" column="14" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/WaccColorSettingsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="62" column="12" lean-forward="true" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -413,27 +524,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/WaccExternalAnnotator.java">
+    <entry file="file://$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/WaccFileTypeFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-301">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/Icons.java">
+    <entry file="file://$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/WaccLanguage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/psi/IdentifierPSINode.java">
+    <entry file="file://$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/WaccParserDefinition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="-1442">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -442,39 +550,164 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/WaccSyntaxHighlighter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
+        <state relative-caret-position="1230">
           <caret line="88" column="40" selection-start-line="88" selection-start-column="40" selection-end-line="88" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/WaccSyntaxHighlighterFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="68" selection-start-line="3" selection-start-column="68" selection-end-line="3" selection-end-column="68" />
+        <state relative-caret-position="187">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/WaccParserDefinition.java">
+    <entry file="file://$PROJECT_DIR$/intelliwacc.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntelliWACC.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+        <state relative-caret-position="255">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/adapter/src/main/java/org/antlr/intellij/adaptor/parser/ANTLRParserAdaptor.java">
+    <entry file="file://$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/psi/IdentifierPSINode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+        <state relative-caret-position="578">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/WaccExternalAnnotator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/WaccFindUsagesProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-238">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="53" column="77" selection-start-line="53" selection-start-column="77" selection-end-line="53" selection-end-column="77" />
+        <state relative-caret-position="816">
+          <caret line="48" column="52" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/psi/WaccPSIFileRoot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="51" column="79" selection-start-line="51" selection-start-column="79" selection-end-line="51" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/psi/BlockSubtree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="25" column="66" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/psi/CallSubtree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/psi/WaccElementRef.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/WaccPluginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/com/intellij/extapi/psi/ASTWrapperPsiElement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/com/intellij/extapi/psi/ASTDelegatePsiElement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="38" column="60" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/com/intellij/psi/impl/PsiElementBase.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adapter/src/main/java/org/antlr/intellij/adaptor/psi/ANTLRPsiNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="30" column="43" lean-forward="true" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adapter/src/main/java/org/antlr/intellij/adaptor/psi/IdentifierDefSubtree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" column="55" lean-forward="true" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/psi/VardefSubtree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+          <folding>
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/psi/VariableRef.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/psi/ArgdefSubtree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/ms/jameswillia/intelliwacc/WaccCompletionContributor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -49,7 +49,7 @@ public class WaccExternalAnnotator extends ExternalAnnotator<PsiFile, List<WaccE
 		Collection<? extends PsiElement> funcNameNodes =
 			XPath.findAll(WaccLanguage.INSTANCE, file, "/prog/func/IDENT");
 		Collection<? extends PsiElement> funcCallNameNodes =
-			XPath.findAll(WaccLanguage.INSTANCE, file, "/functionCall/IDENT");
+			XPath.findAll(WaccLanguage.INSTANCE, file, "functionCall/IDENT");
 
 		Map<String, PsiElement> funcNames = Trees.toMap(funcNameNodes);
 		Map<String, PsiElement> funcCalls = Trees.toMap(funcCallNameNodes);

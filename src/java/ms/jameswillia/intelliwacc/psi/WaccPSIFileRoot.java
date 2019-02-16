@@ -52,9 +52,9 @@ public class WaccPSIFileRoot extends PsiFileBase implements ScopeNode {
 //		                   " at "+Integer.toHexString(element.hashCode())+")");
 		if ( element.getParent() instanceof CallSubtree ) {
 			return SymtabUtils.resolve(this, WaccLanguage.INSTANCE,
-			                           element, "/script/function/ID");
+			                           element, "/prog/func/IDENT");
 		}
 		return SymtabUtils.resolve(this, WaccLanguage.INSTANCE,
-		                           element, "/script/vardef/ID");
+		                           element, "declarationStat/IDENT");
 	}
 }

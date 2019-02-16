@@ -43,6 +43,8 @@
     <lang.parserDefinition language="Wacc" implementationClass="ms.jameswillia.intelliwacc.WaccParserDefinition"/>
     <lang.ast.factory language="Wacc" implementationClass="ms.jameswillia.intelliwacc.WaccASTFactory"/>
 
+    <completion.contributor language="Wacc" implementationClass="ms.jameswillia.intelliwacc.WaccCompletionContributor"/>
+
     <lang.psiStructureViewFactory language="Wacc"
                                   implementationClass="ms.jameswillia.intelliwacc.structview.WaccStructureViewFactory"/>
 
