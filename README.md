@@ -1,5 +1,5 @@
 # IntelliWACC
-IntelliJ Plugin for custom language (WACC)
+IntelliJ Plugin for custom language (WACC). WACC is a C-like programming language used as part of a Compilers course at the Department of Computing at Imperial. 
 
 ## Running the plugin for the first time
 
